@@ -1,32 +1,29 @@
-/* logo starts */
+ 
+#container {
+    width: 500px;
+    height: 300px; 
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.5); 
+    margin: 160px auto; 
+} 
 
-#logo {
-    width: 120px;
-    height: 80px;
-    background-color: blue;
-    margin: 20px auto 0px auto;  
-}    
-#logo .logo-img {
-    /* Img to be added */
+#container #rp-login-form {
+    padding: 20px;
 }
 
-/* Logo Ends  */
+#container #rp-login-form input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 4px;
+  }
 
-/* Divider starts */
-.divider:after,
-.divider:before {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: #eee;
-}
-/* divider ends */
-.h-custom {
-    height: calc(100% - 73px);
-}
-
-@media (max-width: 450px) {
-    .h-custom {
-        height: 100%;
-    }
-}
+  #container #rp-login-form .rp-login-btn {
+      width: 100%;
+      margin-top: 30px;
+      height: 40px;
+      background-color: blue;
+      color: white;
+      cursor: pointer;
+  }
