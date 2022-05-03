@@ -23,5 +23,7 @@
     height: 40px;
     background-color: blue;
     color: white;
-    cursor: pointer;
+    cursor: pointer; 
+    outline: none;
+    border: none;
 }
