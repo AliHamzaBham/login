@@ -33,6 +33,7 @@
  #rp-container form button {
      width: 100%;
      background-color: rgb(119, 101, 214);
+     margin-top: 10px;
  }
 
  @media (max-width: 425px) {
