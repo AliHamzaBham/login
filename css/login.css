@@ -26,3 +26,9 @@
      width: 100%;
      background-color: blue;
  }
+
+ @media (max-width: 425px) {
+     #rp-container {
+         width: 80%;
+     }
+ }
